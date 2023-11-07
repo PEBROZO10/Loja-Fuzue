@@ -4,8 +4,7 @@
     font-family:sans-serif;
     font-size: 40px;
 }
-.logo{
-    max-width: 100%;
-    height: auto;
+.logo {
+    width: 30%;
     text-align: center;
 }
