@@ -1,6 +1,10 @@
 body {
     background-color: Khaki;
 }
+p {
+    font-family:sans-serif;
+    font-size: 15px; 
+}
 .A {
     color: steelblue;
     text-align: center;
