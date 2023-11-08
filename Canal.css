@@ -1,9 +1,25 @@
-budy{
-    background-color: gray;
+body {
+   background-color: Khaki;
 }
-.A{
-    background-color: yellow;
-    text-align: center;
-    font-family:sans-serif;
-    font-size: 40px;
+.L1 {
+   font-family:sans-serif;
+   font-size: 30px; 
+}
+.L2 {
+   font-family:sans-serif;
+   font-size: 30px; 
+}
+p {
+   font-family:sans-serif;
+   font-size: 15px; 
+}
+.A {
+   background-color: steelblue;
+   color: Khaki;
+   text-align: center;
+   font-family:sans-serif;
+   font-size: 40px;
+}
+.Mais_acessados {
+   width: 170%;
 }
