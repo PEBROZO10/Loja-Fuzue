@@ -1,20 +1,26 @@
+/* Reset de margens e padding para garantir consistência */
+body, h1, h2, h3, p, nav {
+   margin: 0;
+   padding: 0;
+}
+
 body {
    background-color: khaki;
-   margin: 0;
    font-family: sans-serif;
+   line-height: 1.6;
 }
 
 nav {
-   display: flex;
-   justify-content: space-around;
    background-color: steelblue;
    padding: 10px 0;
+   text-align: center;
 }
 
-nav .L1 {
+nav a {
    font-size: 30px;
    color: khaki;
    text-decoration: none;
+   margin: 0 20px;
 }
 
 h1.A {
@@ -22,32 +28,36 @@ h1.A {
    color: khaki;
    text-align: center;
    font-size: 40px;
-   margin: 20px 0;
-   padding: 10px 0;
+   padding: 20px 0;
 }
 
 header {
    text-align: center;
+   margin-bottom: 20px;
 }
 
 header .logo {
    width: 30%;
+   display: block;
+   margin: 0 auto;
 }
 
 main {
+   max-width: 800px;
+   margin: 0 auto;
    padding: 20px;
 }
 
 h2.C {
-   font-size: 30px;
+   font-size: 28px;
    color: steelblue;
    text-align: center;
-   margin-top: 0;
+   margin-bottom: 10px;
 }
 
 p {
    font-size: 15px;
-   line-height: 1.5;
+   text-align: justify;
 }
 
 p a {
@@ -56,14 +66,16 @@ p a {
 }
 
 h3.E {
-   font-size: 25px;
+   font-size: 24px;
    color: steelblue;
-   margin-top: 40px;
+   margin-top: 30px;
+   margin-bottom: 10px;
+   text-align: center;
 }
 
 .Mais_acessado {
    width: 100%;
    max-width: 600px;
    display: block;
-   margin: 20px auto;
+   margin: 0 auto;
 }
