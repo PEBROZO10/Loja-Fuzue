@@ -1,24 +1,69 @@
 body {
-   background-color: Khaki;
+   background-color: khaki;
+   margin: 0;
+   font-family: sans-serif;
 }
-.L1 {
-   font-family:sans-serif;
-   font-size: 30px; 
-}
-p {
-   font-family:sans-serif;
-   font-size: 15px; 
-}
-.A {
+
+nav {
+   display: flex;
+   justify-content: space-around;
    background-color: steelblue;
-   color: Khaki;
-   text-align: center;
-   font-family:sans-serif;
-   font-size: 40px;
+   padding: 10px 0;
 }
-.logo {
+
+nav .L1 {
+   font-size: 30px;
+   color: khaki;
+   text-decoration: none;
+}
+
+h1.A {
+   background-color: steelblue;
+   color: khaki;
    text-align: center;
-   width: 30%;}
-.Mais_acessados {
-   width: 170%;
+   font-size: 40px;
+   margin: 20px 0;
+   padding: 10px 0;
+}
+
+header {
+   text-align: center;
+}
+
+header .logo {
+   width: 30%;
+}
+
+main {
+   padding: 20px;
+}
+
+h2.C {
+   font-size: 30px;
+   color: steelblue;
+   text-align: center;
+   margin-top: 0;
+}
+
+p {
+   font-size: 15px;
+   line-height: 1.5;
+}
+
+p a {
+   color: steelblue;
+   text-decoration: none;
+}
+
+h3.E {
+   font-size: 25px;
+   color: steelblue;
+   margin-top: 40px;
+}
+
+.Mais_acessado {
+   width: 100%;
+   max-width: 600px;
+   display: block;
+   margin: 20px auto;
 }
